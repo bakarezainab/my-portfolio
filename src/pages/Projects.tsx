@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, Briefcase, ArrowUp, Code } from 'lucide-react';
+import { Briefcase, ArrowUp, Code } from 'lucide-react';
 
 const Projects = () => {
   const [filter, setFilter] = useState('all');

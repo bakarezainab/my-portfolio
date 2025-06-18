@@ -11,7 +11,7 @@ const Home = () => {
             <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 p-1">
               <div className="w-full h-full rounded-full overflow-hidden">
                 <img 
-                  src="/lovable-uploads/9b31e114-dfc8-463d-8451-7f47ab12da50.png" 
+                  src="/profile.png" 
                   alt="Web3 Developer Profile" 
                   className="w-full h-full object-cover"
                 />

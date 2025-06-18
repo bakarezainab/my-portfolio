@@ -84,7 +84,7 @@ const About = () => {
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center text-white mb-12">Technical Skills</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {skills.map((skillGroup, index) => (
+            {skills.map((skillGroup, _index) => (
               <div 
                 key={skillGroup.category}
                 className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-xl border border-gray-700/50 hover:border-cyan-500/30 transition-all duration-300"
